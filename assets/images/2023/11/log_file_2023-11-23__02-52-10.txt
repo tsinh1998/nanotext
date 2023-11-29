@@ -1,0 +1,20 @@
+
+---Upload files---
+Content file was not uploaded. Error: Sorry, you are not allowed to upload this file type.
+
+---Upload files---
+Customizer file was not uploaded. Error: No file provided.
+
+---Upload files---
+Redux file was not uploaded. Error: No file provided.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 9999
+Files info:
+Site URL = http://localhost/transinh
+Data file = not defined!
+Widget file = D:\xampp\htdocs\transinh/wp-content/uploads/2023/11/options.json
+Customizer file = not defined!
+Redux files:
+not defined!

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="27px" viewBox="0 0 24 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <g id="Business" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-1401.000000, -5985.000000)">
+            <g id="footer" transform="translate(0.000000, 5518.000000)">
+                <g id="copyright" transform="translate(255.000000, 466.000000)">
+                    <g id="logo" transform="translate(1146.000000, 1.000000)">
+                        <polygon id="Rectangle--Rectangle--Rectangle" fill="#54C8EF" points="12 8.19502156 12 12.9575496 0 4.76252803 0 0 12 8.19502156"></polygon>
+                        <path d="M4,3.94337715 L4,14.6717722 C4,18.9809569 7.581722,22.4742413 12,22.4742413 C16.418278,22.4742413 20,18.9809569 20,14.6717722 L20,3.94337715 L24,3.94337715 L24,14.6717722 C24,21.1355493 18.627417,26.3754759 12,26.3754759 C5.372583,26.3754759 0,21.1355493 0,14.6717722 L0,3.94337715 L4,3.94337715 Z" id="Rectangle--Rectangle--Rectangle" fill="#54C8EF"></path>
+                        <polygon id="Rectangle--Rectangle--Rectangle-Copy" fill="#15B7EE" transform="translate(18.000000, 6.520917) scale(1, -1) translate(-18.000000, -6.520917) " points="24 8.23716414 24 12.9996922 12 4.80467061 12 0.0421425824 24 8.23716414"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

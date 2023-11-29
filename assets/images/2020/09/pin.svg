@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Oval Copy 28</title>
+    <defs>
+        <linearGradient x1="28.5574777%" y1="0%" x2="81.3895089%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#6CFD93" offset="0%"></stop>
+            <stop stop-color="#52D475" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Business" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-684.000000, -3487.000000)" fill="url(#linearGradient-1)">
+            <g id="clients" transform="translate(0.000000, 3227.000000)">
+                <g id="map" transform="translate(75.000000, 100.000000)">
+                    <circle id="Oval-Copy-28" cx="623" cy="174" r="14"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

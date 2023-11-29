@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1680px" height="764px" viewBox="0 0 1680 764" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1680" height="764"></rect>
+    </defs>
+    <g id="Business" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="services">
+            <g id="Group-4">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle"></g>
+                <polygon id="Rectangle" stroke="#D3DBE6" mask="url(#mask-2)" points="-1 188 229 145 229 215 -1 258"></polygon>
+                <polygon id="Rectangle-Copy-6" fill="#D3DBE6" mask="url(#mask-2)" points="96 240 326 197 326 267 96 310"></polygon>
+                <polygon id="Rectangle-Copy-11" fill="#EAEEF3" mask="url(#mask-2)" points="64 694 294 651 294 721 64 764"></polygon>
+                <polygon id="Rectangle-Copy-12" fill="#5468FF" mask="url(#mask-2)" points="294 651 524 608 524 678 294 721"></polygon>
+                <polygon id="Rectangle-Copy-14" fill="#54C8EF" mask="url(#mask-2)" points="1125 599 1355 556 1355 626 1125 669"></polygon>
+                <polygon id="Rectangle-Copy-13" fill="#3A416F" mask="url(#mask-2)" points="1355 556 1585 513 1585 583 1355 626"></polygon>
+                <polygon id="Rectangle-Copy-7" stroke="#D3DBE6" mask="url(#mask-2)" points="1306 244 1536 201 1536 271 1306 314"></polygon>
+                <polygon id="Rectangle-Copy-10" stroke="#D3DBE6" mask="url(#mask-2)" points="1392 667 1622 624 1622 694 1392 737"></polygon>
+                <polygon id="Rectangle-Copy-8" fill="#5468FF" mask="url(#mask-2)" points="1536 131 1766 88 1766 158 1536 201"></polygon>
+                <polygon id="Rectangle-Copy-9" fill="#848AB8" mask="url(#mask-2)" points="1451 398 1681 355 1681 425 1451 468"></polygon>
+                <path d="M-222,679 L-222,609 L238,523 L238,593 L-222,679 Z" id="Combined-Shape-Copy" fill="#54C8EF" mask="url(#mask-2)"></path>
+                <path d="M-51,716 L-51,646 L409,560 L409,630 L-51,716 Z" id="Combined-Shape" fill="#3A416F" mask="url(#mask-2)"></path>
+                <path d="M1221,581 L1221,511 L1681,425 L1681,495 L1221,581 Z" id="Combined-Shape-Copy-3" fill="#EAEEF3" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

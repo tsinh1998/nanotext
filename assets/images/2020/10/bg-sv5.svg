@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1680px" height="766px" viewBox="0 0 1680 766" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg-w</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1680" height="764"></rect>
+        <rect id="path-3" x="0" y="0" width="1680" height="764"></rect>
+        <rect id="path-5" x="0" y="0" width="1680" height="764"></rect>
+        <rect id="path-7" x="0" y="0" width="1680" height="764"></rect>
+        <rect id="path-9" x="0" y="0" width="1680" height="764"></rect>
+        <rect id="path-11" x="0" y="0" width="1680" height="764"></rect>
+        <rect id="path-13" x="0" y="0" width="1680" height="764"></rect>
+        <rect id="path-15" x="0" y="0" width="1680" height="764"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg-w">
+            <g id="Rectangle-Clipped">
+                <g>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="path-1"></g>
+                    <polygon id="Rectangle" stroke="#D3DBE6" mask="url(#mask-2)" points="-3 323 227 280 227 350 -3 393"></polygon>
+                </g>
+                <g id="Rectangle-Copy-Clipped">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="path-1"></g>
+                    <polygon id="Rectangle-Copy" stroke="#54C8EF" mask="url(#mask-4)" points="177 465 407 422 407 492 177 535"></polygon>
+                </g>
+            </g>
+            <g id="Combined-Shape-Copy-3-Clipped" transform="translate(0.000000, 2.000000)">
+                <g>
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="path-3"></g>
+                    <polygon id="Combined-Shape-Copy-3" stroke="#D3DBE6" mask="url(#mask-6)" points="1253 558 1253 488 1713 402 1713 472"></polygon>
+                </g>
+            </g>
+            <g id="Rectangle-Copy-6-Clipped">
+                <g>
+                    <mask id="mask-8" fill="white">
+                        <use xlink:href="#path-7"></use>
+                    </mask>
+                    <g id="path-5"></g>
+                    <polygon id="Rectangle-Copy-6" fill="#D3DBE6" fill-rule="nonzero" mask="url(#mask-8)" points="116 270 346 227 346 297 116 340"></polygon>
+                </g>
+            </g>
+            <g id="Rectangle-Copy-7-Clipped">
+                <g>
+                    <mask id="mask-10" fill="white">
+                        <use xlink:href="#path-9"></use>
+                    </mask>
+                    <g id="path-7"></g>
+                    <polygon id="Rectangle-Copy-7" stroke="#D3DBE6" mask="url(#mask-10)" points="1306 244 1536 201 1536 271 1306 314"></polygon>
+                </g>
+            </g>
+            <g id="Rectangle-Copy-8-Clipped">
+                <g>
+                    <mask id="mask-12" fill="white">
+                        <use xlink:href="#path-11"></use>
+                    </mask>
+                    <g id="path-9"></g>
+                    <polygon id="Rectangle-Copy-8" fill="#5468FF" fill-rule="nonzero" mask="url(#mask-12)" points="1536 131 1766 88 1766 158 1536 201"></polygon>
+                </g>
+            </g>
+            <g id="Rectangle-Copy-9-Clipped">
+                <g>
+                    <mask id="mask-14" fill="white">
+                        <use xlink:href="#path-13"></use>
+                    </mask>
+                    <g id="path-11"></g>
+                    <polygon id="Rectangle-Copy-9" fill="#848AB8" fill-rule="nonzero" mask="url(#mask-14)" points="1491 398 1721 355 1721 425 1491 468"></polygon>
+                </g>
+            </g>
+            <g id="Combined-Shape-Copy-Clipped">
+                <g>
+                    <mask id="mask-16" fill="white">
+                        <use xlink:href="#path-15"></use>
+                    </mask>
+                    <g id="path-13"></g>
+                    <polygon id="Combined-Shape-Copy" fill="#54C8EF" fill-rule="nonzero" mask="url(#mask-16)" points="-283 691 -283 621 177 535 177 605"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

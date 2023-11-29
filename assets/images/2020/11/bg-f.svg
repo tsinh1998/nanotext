@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1680px" height="851px" viewBox="0 0 1680 851" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <defs>
+        <filter x="-240.0%" y="-40.0%" width="580.0%" height="180.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-180.0%" y="-30.0%" width="460.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="3" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-24.6%" y="-24.6%" width="149.2%" height="149.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-18.6%" y="-18.6%" width="137.1%" height="137.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-60.0%" y="-60.0%" width="220.0%" height="220.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-111.9%" y="-111.9%" width="323.8%" height="323.8%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="7" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-70.0%" y="-70.0%" width="240.0%" height="240.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="3" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#E2A634" filter="url(#filter-1)" transform="translate(1515.500000, 109.000000) rotate(50.000000) translate(-1515.500000, -109.000000) " x="1513" y="94" width="5" height="30" rx="2.5"></rect>
+        <rect id="Rectangle-Copy" fill="#D88B8B" filter="url(#filter-2)" transform="translate(211.500000, 449.000000) rotate(-60.000000) translate(-211.500000, -449.000000) " x="209" y="434" width="5" height="30" rx="2.5"></rect>
+        <circle id="Oval" stroke="#54C470" stroke-width="31" opacity="0.600000024" filter="url(#filter-3)" cx="1680.5" cy="251.5" r="92.5"></circle>
+        <circle id="Oval-Copy-2" stroke="#E2A634" stroke-width="31" opacity="0.600000024" filter="url(#filter-4)" cx="0.5" cy="618.5" r="122.5"></circle>
+        <circle id="Oval" fill="#5468FF" filter="url(#filter-5)" cx="1513" cy="317" r="5"></circle>
+        <circle id="Oval" stroke="#4FBCA7" stroke-width="5" filter="url(#filter-6)" cx="1433.5" cy="203.5" r="10.5"></circle>
+        <circle id="Oval-Copy" stroke="#1352F5" stroke-width="3" filter="url(#filter-7)" cx="134.5" cy="361.5" r="7.5"></circle>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="36px" viewBox="0 0 24 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 7</title>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#002B97" offset="0%"></stop>
+            <stop stop-color="#5468FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Business" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="services" transform="translate(-828.000000, -2156.000000)">
+            <g id="icon__checked--purple-light" transform="translate(828.000000, 2156.000000)">
+                <g id="Group-7">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="36" rx="12"></rect>
+                    <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.699999988" cx="12" cy="18" r="12"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
