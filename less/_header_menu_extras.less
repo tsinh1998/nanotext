@@ -1,0 +1,125 @@
+#site-header {
+	.extras {
+		display: none;
+		@media only screen and (min-width: 992px) {
+			display: flex;
+		}
+	}
+	.menu-extras {
+		display: flex;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		align-items: center;
+		> li {
+			margin: 0 0 0 25px;
+			> a {
+				padding: 0;
+				margin: 0;
+				position: relative;
+				i {
+					vertical-align: middle;
+				}
+			}
+			&.search-box {
+				position: relative;
+				@media only screen and (min-width: 992px) {
+					width: 370px;
+				}
+				> a {
+					position: absolute;
+					left: 0;
+					bottom: 0;
+					right: 0;
+					top: 0;
+					z-index: 2;
+					text-indent: -9999px;
+				}
+				.widget_search {
+					margin-bottom: 0;
+					.screen-reader-text {
+						left: 12px;
+						.opacity(0);
+						&:extend(.transition);
+					}
+					.search-field {
+						padding-top: 0;
+						padding-bottom: 0;
+						height: 40px;
+					}
+					.search-submit {
+						text-indent: 0;
+						width: auto;
+						z-index: 3;
+						right: 5px;
+						color: @white;
+						padding: 0 15px;
+						.box-shadow3;
+						.opacity(0);
+					}
+				}
+				&.active {
+					.search-field {
+						padding-left: 40px;
+					}
+					.widget_search {
+						.screen-reader-text,.search-submit {
+							.opacity(1);
+						}
+					}
+				}
+			}
+			&.shopping-cart {
+				.shopping-cart-text {
+					&:after {
+						content: "\f07a";
+						font-family:"FontAwesome";
+						font-size: 18px;
+						margin-left: 6px;
+					}
+				}
+				&:hover {
+					.sub-menu {
+						visibility: visible;
+						.opacity(1);
+					}
+				}
+				.sub-menu {
+					position: absolute;
+					right: 0;
+					background: @white;
+					width: 250px;
+					padding: 30px;
+					visibility: hidden;
+					&:extend(.transition);
+					.opacity(0);
+					.rounded;
+					.box-shadow3;
+					.woocommerce-mini-cart__empty-message {
+						text-align: center;
+					}
+				}
+				.shopping-cart-text {
+					font-size: 14px;
+				}
+				.shopping-cart-items-count {
+					span {
+						width: 20px;
+						height: 20px;
+						line-height: 16px;
+						text-align: center;
+						color: @white;
+						font-size: 12px;
+						display: inline-block;
+						position: absolute;
+						top: -10px;
+						right: -12px;
+						border: 2px solid @white;
+						background: @blue;
+						.rounded(50%);
+					}
+				}
+			}
+		}
+	}
+}

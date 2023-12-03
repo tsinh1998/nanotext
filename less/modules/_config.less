@@ -1,0 +1,79 @@
+/*============================================================ 
+                        CSS OVERVIEWS
+                1. GENERAL
+                2. LAYOUT
+                3. HEADER
+                4. CONTENT
+                	4.1. Content Header
+                	4.1. Content Bottom
+                5. WIDGET
+                6. FOOTER
+                7. OTHER
+                	7.1. Comments
+                	7.2. Page Navigation
+                	7.3. Page Search
+                	7.4. Blank Page
+                	7.5. Error404
+                    7.6. Social                           	
+============================================================*/
+
+
+@grid-columns: 12;
+@grid-gutter: 30px;
+@primary: #54C8EF;
+@accent: #1252F5;
+@dark: #3A416F;
+@black: #000;
+@white: #fff;
+@grey: #C2CFDE;
+@yellow: #FEEB35;
+@blue: #15B7EE;
+@green: #52D475;
+@red: #E54B4D;
+@light: #EAEEF3;
+@orange: #FF4C00;
+
+
+
+.rounded (@radius: 3px) {
+	border-radius: @radius;
+}
+.transition (@transition: all 0.2s ease-in-out 0s)  {
+	transition: @transition;
+}
+.box-shadow(@arguments:0 30px 50px rgba(107, 124, 147, 0.15)) {
+    box-shadow: @arguments;
+}
+.box-shadow2(@arguments:0 2px 4px rgba(107, 124, 147, 0.06)) {
+    box-shadow: @arguments;
+}
+.box-shadow3(@arguments:0 5px 15px rgba(107, 124, 147, 0.15)) {
+    box-shadow: @arguments;
+}
+.box-shadow4(@arguments:0 7px 18px 0 rgba(107, 124, 147, 0.25)) {
+    box-shadow: @arguments;
+}
+.box-shadow5(@arguments:0 15px 35px rgba(107,124,147,0.15)) {
+    box-shadow: @arguments;
+}
+.box-shadow6(@arguments:0 5px 35px rgba(107,124,147,0.2)) {
+    box-shadow: @arguments;
+}
+.opacity(@opacity: 0.5) {
+	opacity: @opacity;
+}
+.delay (@delay: 60ms) {
+	transition-delay: @delay;
+}
+.duration (@duration: 250ms) {
+	transition-duration: @duration;
+}
+.gradient (@origin: -180deg, @step-1: transparent,  @step-2: @white 100%, @fallback: transparent){
+    background-color: @fallback;
+    background: -webkit-linear-gradient(@origin, @step-1, @step-2) @fallback no-repeat;
+    background:    -moz-linear-gradient(@origin, @step-1, @step-2) @fallback no-repeat;
+    background:     -ms-linear-gradient(@origin, @step-1, @step-2) @fallback no-repeat;
+    background:      -o-linear-gradient(@origin, @step-1, @step-2) @fallback no-repeat;
+    background:         linear-gradient(@origin, @step-1, @step-2) @fallback no-repeat;
+
+}
