@@ -1,4 +1,2 @@
 install : npm install -g less
-link : lessc less/style.less css/style.css
-install-watcher : npm install less-watcher
 watcher : less-watch-compiler less css style.less
