@@ -16,6 +16,130 @@
                 	7.5. Error404
                     7.6. Social                           	
 ============================================================*/
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.columns {
+  float: left;
+  padding: 0 30px/2;
+}
+.columns-1 {
+  width: 8.33333333%;
+}
+.columns-2 {
+  width: 16.66666667%;
+}
+.columns-3 {
+  width: 25%;
+}
+.columns-4 {
+  width: 33.33333333%;
+}
+.columns-5 {
+  width: 41.66666667%;
+}
+.columns-6 {
+  width: 50%;
+}
+.columns-7 {
+  width: 58.33333333%;
+}
+.columns-8 {
+  width: 66.66666667%;
+}
+.columns-9 {
+  width: 75%;
+}
+.columns-10 {
+  width: 83.33333333%;
+}
+.columns-11 {
+  width: 91.66666667%;
+}
+.columns-12 {
+  width: 100%;
+}
+.pull-1 {
+  left: -8.33333333%;
+}
+.pull-2 {
+  left: -16.66666667%;
+}
+.pull-3 {
+  left: -25%;
+}
+.pull-4 {
+  left: -33.33333333%;
+}
+.pull-5 {
+  left: -41.66666667%;
+}
+.pull-6 {
+  left: -50%;
+}
+.pull-7 {
+  left: -58.33333333%;
+}
+.pull-8 {
+  left: -66.66666667%;
+}
+.pull-9 {
+  left: -75%;
+}
+.pull-10 {
+  left: -83.33333333%;
+}
+.pull-11 {
+  left: -91.66666667%;
+}
+.pull-12 {
+  left: -100%;
+}
+.push-1 {
+  left: 8.33333333%;
+}
+.push-2 {
+  left: 16.66666667%;
+}
+.push-3 {
+  left: 25%;
+}
+.push-4 {
+  left: 33.33333333%;
+}
+.push-5 {
+  left: 41.66666667%;
+}
+.push-6 {
+  left: 50%;
+}
+.push-7 {
+  left: 58.33333333%;
+}
+.push-8 {
+  left: 66.66666667%;
+}
+.push-9 {
+  left: 75%;
+}
+.push-10 {
+  left: 83.33333333%;
+}
+.push-11 {
+  left: 91.66666667%;
+}
+.push-12 {
+  left: 100%;
+}
+.clear,
+.row:after,
+.clear-after:after,
+.clear-before:before {
+  content: '';
+  display: table;
+  clear: both;
+}
 /* ============================================================ 
     1. GENERAL
 =============================================================*/
@@ -254,27 +378,6 @@ body.is-loaded:before {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-}
-body:before {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 999999;
-  background: #EAEEF3;
-}
-body:after {
-  left: 50%;
-  top: 50%;
-  display: block;
-  z-index: 9999999;
-  width: 60px;
-  height: 60px;
-  margin-top: -30px;
-  margin-left: -30px;
-  background: #3A416F;
-  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
-  animation: sk-rotateplane 1.2s infinite ease-in-out;
 }
 a {
   text-decoration: none;
