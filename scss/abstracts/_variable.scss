@@ -1,0 +1,47 @@
+//settings
+$font-main-size: 15px;
+$font-main-line: 140%;
+$font-main-family: "Red Hat Display", sans-serif;
+$font-secondary-family: "Rubik", sans-serif;
+$fontIcon: "icomoon";
+
+// $h1-fs: 34px;
+// $h1-lh: 40.8px;
+// $h2-fs: 24px;
+// $h2-lh: 28.8px;
+// $h3-fs: 20px;
+// $h3-lh: 24px;
+// $h4-fs: 18px;
+// $h4-lh: 25.2px;
+// $h5-fs: 16px;
+// $h5-lh: 22.4px;
+// $h6-fs: 15px;
+// $h6-lh: normal;
+
+// color
+$white: #fff;
+$black: #111;
+
+:root {
+    --Bg: #101320;
+    --White: #fff;
+    --black: #111;
+    --Text-Title: #CED6EE;
+    --Body-Text: #8691B2;
+    --Note: #4E556F;
+    --ffac-4-b: #FF981E;
+    --primary :#07CF06;
+    --secondary :#1D2239;
+    --star : #FFA438;
+    --border : #242C48;
+    
+    
+    //backdrop
+    --backdrop: #161A2B;
+    --backdrop-1: #1D2237;
+    
+    // liner garden colors
+    --liner-primary: linear-gradient(273.96deg, #07CF06 4.1%, #EAF90A 100%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    --liner-button: linear-gradient(274deg, #01BF00 4.1%, #63CE63 100%);
+    
+}
