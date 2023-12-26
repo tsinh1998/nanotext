@@ -705,35 +705,19 @@ a {
     position     : relative;
     margin-left  : auto;
     margin-right : auto;
-    padding-right: 10px;
-    padding-left : 10px;
-    width        : 1130px;
+    width        : 1200px;
     max-width    : 100%;
+    padding-right: 15px;
+    padding-left : 15px;
+    .row {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+        > * {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+    }
     &.full {
         width: 100%;
-    }
-    .row {
-        margin-left: -10px !important;
-        margin-right: -10px !important;
-        > * {
-            padding-left: 10px !important;
-            padding-right: 10px !important;
-        }
-    }
-    &.space30 {
-        padding-right: 15px;
-        padding-left : 15px;
-        width        : 1140px;
-        .row {
-            margin-left: -15px !important;
-            margin-right: -15px !important;
-            > * {
-                padding-left: 15px !important;
-                padding-right: 15px !important;
-            }
-        }
-    }
-    &.w1060 {
-        width : 1080px;
     }
 }
