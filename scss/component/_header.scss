@@ -1,5 +1,8 @@
 .site-header {
-    
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 99;
     .header-content {
         .header-brand {
             display: flex;

@@ -761,6 +761,135 @@ a:focus {
   width: 100%;
 }
 
+.wrap {
+  position: relative;
+  margin: 0 auto;
+  width: 1170px;
+  max-width: 90%;
+}
+
+.content-header {
+  position: relative;
+  overflow: hidden;
+  flex-direction: column-reverse;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  margin-bottom: 60px;
+  padding-top: 195px;
+}
+.content-header.content-header-shadow::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 80%;
+  opacity: 0.25;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #54c8ef 100%);
+}
+.content-header .down-arrow a {
+  position: relative;
+  width: 105px;
+  height: 105px;
+  display: inline-block;
+  font-size: 14px;
+}
+.content-header .down-arrow a::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  right: -8px;
+  top: -8px;
+  bottom: -8px;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 100%;
+  transition: all 0.2s ease-in-out 0s;
+}
+.content-header .down-arrow a::after {
+  content: "";
+  width: 105px;
+  height: 105px;
+  background-image: url(./../images/down-symbol.svg);
+  background-size: 105px 105px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation-name: rotate;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.content-header .down-arrow a span {
+  text-indent: -9999px;
+  display: block;
+  width: 18px;
+  height: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: #52d475;
+  border-radius: 20px;
+}
+.content-header .down-arrow a span::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 5px;
+  width: 4px;
+  height: 4px;
+  margin-left: -2px;
+  background: #fff;
+  border-radius: 4px;
+  animation-name: move;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.content-header .page-title-wrap {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 1;
+}
+.content-header .page-title-wrap .page-title-inner {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 1.12em;
+}
+.content-header.content-header-left .page-title-wrap {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.content-header.content-header-left .page-title-wrap .page-title {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 40%;
+  flex-shrink: 0;
+  padding-right: 30px;
+}
+.content-header.content-header-left .page-title-wrap .page-title .page-title-inner {
+  margin: 0 0 25px -2px;
+}
+.content-header.content-header-left .down-arrow {
+  position: absolute;
+  right: -43px;
+  bottom: -10px;
+  z-index: 4;
+}
+
+.site-header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
 .site-header .header-content .header-brand {
   display: flex;
   flex-direction: row;
