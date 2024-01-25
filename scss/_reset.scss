@@ -143,7 +143,8 @@ html {
 
 body {
     background : #fff;
-    font-family: Jost;
+    font-family: "Jost";
+    font-weight: 300;
     font-style: normal;
     color: #61708b;
     font-size: 1rem;
@@ -705,16 +706,16 @@ a {
     position     : relative;
     margin-left  : auto;
     margin-right : auto;
-    width        : 1200px;
+    width        : 1230px;
     max-width    : 100%;
-    padding-right: 15px;
-    padding-left : 15px;
+    padding-right: 30px;
+    padding-left : 30px;
     .row {
-        margin-left: -15px !important;
-        margin-right: -15px !important;
+        margin-left: -30px !important;
+        margin-right: -30px !important;
         > * {
-            padding-left: 15px !important;
-            padding-right: 15px !important;
+            padding-left: 30px !important;
+            padding-right: 30px !important;
         }
     }
     &.full {
