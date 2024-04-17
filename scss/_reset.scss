@@ -669,6 +669,9 @@ h6 {
 .gap25 {
     gap: 25px !important;
 }
+.mb-20 {
+    margin-bottom: 20px !important;
+}
 .mb-30 {
     margin-bottom: 30px !important;
 }
@@ -740,21 +743,20 @@ a {
     margin-right : auto;
     width        : 1230px;
     max-width    : 100%;
-    padding-right: 30px;
-    padding-left : 30px;
+    padding-right: 15px;
+    padding-left : 15px;
     .row {
-        margin-left: -30px !important;
-        margin-right: -30px !important;
+        margin-left: -15px !important;
+        margin-right: -15px !important;
         > * {
-            padding-left: 30px !important;
-            padding-right: 30px !important;
+            padding-left: 15px !important;
+            padding-right: 15px !important;
         }
     }
     &.full {
         width: 100%;
     }
 }
-
 
 .wrap {
     position: relative;

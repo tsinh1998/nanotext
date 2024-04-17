@@ -135,6 +135,14 @@
     });
   };
 
+  var video = function(){
+    if ($('div').hasClass('video-wrap')) {
+      $('.popup-youtube').magnificPopup({
+        type: 'iframe'
+      });
+    }
+  };
+
 
   // Dom Ready
   $(function () {
@@ -144,6 +152,7 @@
     btnQuantity();
     collapse_menu();
     flatAccordion('.flat-accordion','.flat-toggle');
+    video();
   });
 
 })(jQuery);
