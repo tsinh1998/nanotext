@@ -4369,7 +4369,90 @@ ul.iconlist-tree li:hover::before {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(../../images/2020/11/bg-f.svg);
+  background-image: url(../../images/2020/11/bg-sv3.png), url(../../images/2020/11/bg-f.svg);
+  position: relative;
+}
+.page-title-services::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  height: 80%;
+  bottom: 0;
+  background: linear-gradient(180deg, #ffffff 0%, #eaeef3 100%);
+}
+.page-title-services .content {
+  text-align: center;
+}
+.page-title-services .content > .icon {
+  filter: drop-shadow(15px 30px 15px rgba(107, 124, 147, 0.3));
+  margin-bottom: 15px;
+}
+.page-title-services .content > h6 {
+  color: #5468ff;
+  margin-bottom: 12px;
+}
+.page-title-services .content > h2 {
+  font-size: 48px;
+  line-height: 52px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+.page-title-services .content > .text {
+  font-size: 21px;
+  color: #3a416f;
+  line-height: 32px;
+  text-align: center;
+  font-weight: 300;
+  margin: 0 0 45px -2px;
+}
+.page-title-services .content > .grid-columns-3 {
+  width: 100%;
+  max-width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+.page-title-services .content > .grid-columns-3 .field {
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
+}
+.page-title-services .content > .grid-columns-3 .field label {
+  left: 26px;
+  position: absolute;
+  top: 10px;
+  z-index: 2;
+  font-size: 12px;
+  pointer-events: none;
+  color: #3a416f;
+}
+.page-title-services .content > .grid-columns-3 .field input {
+  box-shadow: 0 15px 35px rgba(107, 124, 147, 0.15);
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border-color: #54c8ef;
+  padding: 30px 20px 10px 20px;
+  font-size: 16px;
+  width: 100%;
+  position: relative;
+}
+.page-title-services .content > a {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-title-services .content > p {
+  font-size: 13px;
+  text-align: center;
 }
 
 select {
